@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/self-healing/webhook.py", line 1, in <module>
+    from flask import Flask, request
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "/home/ubuntu/self-healing/webhook.py", line 1, in <module>
+    from flask import Flask, request
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "/home/ubuntu/self-healing/webhook.py", line 1, in <module>
+    cat <<EOF > webhook.py
+    ^^^
+NameError: name 'cat' is not defined
