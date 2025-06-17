@@ -2,7 +2,7 @@
 - name: Auto-heal failed service
   hosts: localhost
   tasks:
-    - name: Restart nginx (or your service)
+    - name: Restart nginx 
       become: true
       service:
         name: nginx
